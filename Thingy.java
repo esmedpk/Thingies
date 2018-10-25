@@ -5,5 +5,6 @@ class Thingy
   {
     myX = myY = 0;
   }
-  /* your java code for "getters" and "setters" here */
+  public int getNum() {return myX;}
+  public void setNum(int n) {myX = n;}
 }
